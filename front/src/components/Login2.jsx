@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react"
 import userServices from "../services/userServices";
+import {Form, Button} from 'react-bootstrap'
 
 
 const Login2 = () => {
@@ -38,9 +39,6 @@ userServices.getLogIn()
             <section>
                 <h1>You are logged in!</h1>
                 <br />
-                <p>
-                    <a href="#">Go to Home Page</a>
-                </p>
             </section>
         ) : (
         
@@ -72,7 +70,6 @@ userServices.getLogIn()
                 Need an Account?<br />
                 <span className="line">
                     {/* {router link*/}
-                    <a href="">Sign Up</a>
                     </span>
             </p>
         </section>

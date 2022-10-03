@@ -4,14 +4,18 @@ import Register from './Register'
 import Transactions from './Transactions'
 import LogIn from './LogIn'
 import Login2 from './Login2'
+import TextLinkExample from './Navbar'
+import Second from './Second'
 
 
 const Main = () => {
   return (
     <div>
+      <TextLinkExample/>
         <Register/>
-        <LogIn/>
-        <Login2/>
+        {/* <Second/> */}
+        {/* <LogIn/> */}
+        {/* <Login2/> */}
         <Transactions/>
         <SetTransaction/>
         {/* <Login2/> */}
